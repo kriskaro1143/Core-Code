@@ -15,6 +15,15 @@ while True:
 4.	Read about Pseudocode: Done!
 5.	Why is Pseudocode helpful? A.// It is helpful because it´s a proper way to find a solution for coding problems, showing step by step how to solve it using a language easily to understand for people.
 6.	Create a pseudocode to calculate the approximated age of a user base on the year they born.
+Escribir “Ingrese la fecha de nacimiento”
+Leer fnac
+
+Escribir “Ingrese la fecha actual”
+Leer factual
+
+Edad = factual -fnac
+
+Imprimir “La edad de la persona es: “, edad, “ años”
 
 7.	Read about flowcharts: Done!
 8.	Why are flowcharts important to us as developers? They are important since allow us to show the proper solution or steps to follow in a clear visual way and handle or modify (if necessary) our process looking for the right solution.
