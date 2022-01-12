@@ -1,5 +1,6 @@
 # Core-Code
 Core Code Bootcamp
+***
 Week challenges (Tuesday)
 1.	Watch video about Compilation and Interpretation: Done!
 ***
