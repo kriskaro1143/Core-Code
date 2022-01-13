@@ -121,4 +121,7 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 	
 ![image](https://user-images.githubusercontent.com/96300815/149392348-5b8dca42-5a4f-4ca9-96c9-d91538714f70.png)
 
+***
+#**Week challenges (Thursday)**
+
 
