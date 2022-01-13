@@ -1,7 +1,7 @@
 # Core-Code
 Core Code Bootcamp
 ***
-Week challenges (Tuesday)
+**Week challenges (Tuesday)
 1.	Watch video about Compilation and Interpretation: Done!
 ***
 2.	Java language is compiled or interpreted? A.// Interpreted
