@@ -22,6 +22,7 @@ while True:
 5.	Why is Pseudocode helpful? A.// It is helpful because it´s a proper way to find a solution for coding problems, showing step by step how to solve it using a language easily to understand for people.
 ***
 6.	Create a pseudocode to calculate the approximated age of a user base on the year they born.
+
 Escribir “Ingrese la fecha de nacimiento”
 Leer fnac
 
