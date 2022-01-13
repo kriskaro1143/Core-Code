@@ -38,11 +38,16 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 9.	Search about High-level languages and Low-level languages. Done!
 ***
 **Week challenges (Wednesday)**
-1. 	Learn about binary, decimal and hexadecimal numbers
+1. 	Learn about binary, decimal and hexadecimal numbers. **Done!**
 ***
-2.	Translate the year you where born to binary, decimal and hexadecimal
+2.	Translate the year you where born **(1991)** to binary, decimal and hexadecimal
+	Binary: 11111000111
+	Decimal: 1024 + 512 + 256 + 128 + 64 + 4 + 2 + 1 = 1991
+	Hexadecimal: 7C7 (7 - 12 - 7)
 ***
 3.	Translate 51966 into hexadecimal and binary
+	Binary: 
+	Hexadecimal:  ()
 ***
 4.	Use a Low-level language, for example MIPS aseembler, to do so, you will need to follow this guide. We recomend to check the guide first but also this presentation could be helpful.
 ***
