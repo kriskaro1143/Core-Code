@@ -56,4 +56,47 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 ![image](https://user-images.githubusercontent.com/96300815/149368749-a3628364-a4c3-4702-a563-9a8222130290.png)
 
 ***
-5. 	Base on the examples and the guide of the low-level language: 5.1 Create a program to add two numbers given by the user 5.2 Create a program that display your name
+5. 	Base on the examples and the guide of the low-level language: 
+
+5.1 Create a program to add two numbers given by the user 
+
+.data
+	number1: .asciiz "\nIngrese el primer numero: "
+	number2: .asciiz "\nIngrese el segundo numero: "
+.text
+	main:
+		li $v0, 4
+		la $a0, number1
+		syscall
+
+		li $v0, 5
+		syscall
+
+		move $t0, $v0
+
+		li $v0, 4
+		la $a0, number2
+		syscall
+
+		li $v0, 5
+		syscall
+
+		move $t1, $v0
+		
+.data
+	result_message: .asciiz "\nEl resultado es: "
+.text
+		add $t2, $t0, $t1
+
+		li $v0, 4
+		la $a0 result_message
+		syscall
+
+		li $v0, 1
+		move $a0, $t2
+		syscall
+		
+		
+5.2 Create a program that display your name
+
+
