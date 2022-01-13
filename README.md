@@ -36,5 +36,14 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 8.	Why are flowcharts important to us as developers? They are important since allow us to show the proper solution or steps to follow in a clear visual way and handle or modify (if necessary) our process looking for the right solution.
 ***
 9.	Search about High-level languages and Low-level languages. Done!
-
+***
 Week challenges (Wednesday)
+1. 	Learn about binary, decimal and hexadecimal numbers
+***
+2.	Translate the year you where born to binary, decimal and hexadecimal
+***
+3.	Translate 51966 into hexadecimal and binary
+***
+4.	Use a Low-level language, for example MIPS aseembler, to do so, you will need to follow this guide. We recomend to check the guide first but also this presentation could be helpful.
+***
+5. 	Base on the examples and the guide of the low-level language: 5.1 Create a program to add two numbers given by the user 5.2 Create a program that display your name
