@@ -96,7 +96,9 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 		move $a0, $t2
 		syscall
 		
-		
+		![image](https://user-images.githubusercontent.com/96300815/149371909-e67ac4a2-ce5b-4bba-857d-546211968f1f.png)
+		![image](https://user-images.githubusercontent.com/96300815/149371967-dd2f5dc6-ea47-4941-ae62-9bbeaa1a902f.png)
+
 5.2 Create a program that display your name
 
 
