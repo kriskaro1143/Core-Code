@@ -52,5 +52,8 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 	Hexadecimal: **C A F E (12 + 10 + 15 + 14)**
 ***
 4.	Use a Low-level language, for example MIPS aseembler. **Done!**
+
+![image](https://user-images.githubusercontent.com/96300815/149368749-a3628364-a4c3-4702-a563-9a8222130290.png)
+
 ***
 5. 	Base on the examples and the guide of the low-level language: 5.1 Create a program to add two numbers given by the user 5.2 Create a program that display your name
