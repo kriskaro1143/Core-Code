@@ -37,7 +37,7 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 ***
 9.	Search about High-level languages and Low-level languages. Done!
 ***
-Week challenges (Wednesday)
+**Week challenges (Wednesday)**
 1. 	Learn about binary, decimal and hexadecimal numbers
 ***
 2.	Translate the year you where born to binary, decimal and hexadecimal
