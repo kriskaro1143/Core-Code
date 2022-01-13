@@ -7,14 +7,14 @@ Core Code Bootcamp
 2.	Java language is compiled or interpreted? A.// Interpreted
 ***
 3.	Create an algorithm to calculate the equivalent of your local currencty to USD.
-dolar = 7.71
-while True:
-	quetzales = float(input("Cuantos quetzales desea convertir"))
-	dolares = quetzales / dolar
-	print ("{} quetzales equivales a {} dolares".format(quetzales, dolares))
-	otra = input("¿Desea realizar otro cálculo?")
-	if otra ** "n" or otra ** "N":
-		break
+	dolar = 7.71
+	while True:
+		quetzales = float(input("Cuantos quetzales desea convertir"))
+		dolares = quetzales / dolar
+		print ("{} quetzales equivales a {} dolares".format(quetzales, dolares))
+		otra = input("¿Desea realizar otro cálculo?")
+		if otra ** "n" or otra ** "N":
+			break
 ***
 4.	Read about Pseudocode: Done!
 ***
