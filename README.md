@@ -108,10 +108,15 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 5.2 Create a program that display your name
 
 .data
+
 	mensaje: .asciiz "Cristian Fuentes\n"	
+	
 .text
+
 	li $v0, 4
+	
 	la $a0, mensaje
+	
 	syscall
 	
 ![image](https://user-images.githubusercontent.com/96300815/149392348-5b8dca42-5a4f-4ca9-96c9-d91538714f70.png)
