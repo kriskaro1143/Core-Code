@@ -66,10 +66,17 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 5.1 Create a program to add two numbers given by the user 
 
 .data
+
 	number1: .asciiz "\nIngrese el primer numero: "
+	
 	number2: .asciiz "\nIngrese el segundo numero: "
+	
+	result_message: .asciiz "\nEl resultado es: "
+	
 .text
+
 	main:
+	
 		li $v0, 4
 		la $a0, number1
 		syscall
@@ -78,7 +85,7 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 		syscall
 
 		move $t0, $v0
-
+	
 		li $v0, 4
 		la $a0, number2
 		syscall
@@ -88,9 +95,7 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 
 		move $t1, $v0
 		
-.data
-	result_message: .asciiz "\nEl resultado es: "
-.text
+		
 		add $t2, $t0, $t1
 
 		li $v0, 4
