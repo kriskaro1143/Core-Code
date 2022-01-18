@@ -170,7 +170,7 @@ function uniTotal (c)
 
     var sum=0;
     
-    for (var i=0; i<c.length; ++i
+    for (var i=0; i<c.length; ++i)
     
         sum+=c[i].charCodeAt();
 	
