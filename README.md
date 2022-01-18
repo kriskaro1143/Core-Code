@@ -129,4 +129,11 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 ***
 #**Week challenges (Thursday)**
 
+1.Search for real word applications of Javascript **Done!**
+
+2.(optional but great) Watch this video **Done!**
+
+3.(optional but great) Watch this video **Done!**
+
+4.Follow the github course. **Done!**
 
