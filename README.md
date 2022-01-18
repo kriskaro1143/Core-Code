@@ -154,14 +154,35 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 ***
 **(Tuesday 18)**
 
-1. 
+1. Multiply
+
 function multiply(a, b){
 
   return a * b
   
 }
 
-2.
+2. ASCCI Total
 
+function uniTotal (c) 
+
+{
+
+    var sum=0;
+    
+    for (var i=0; i<c.length; ++i
+    
+        sum+=c[i].charCodeAt();
+	
+    return sum;
+    
+}
+
+3. Get character from ASCII Value
+
+function getChar(c) {
+
+    return String.fromCharCode(c)
+}
 
 ***
