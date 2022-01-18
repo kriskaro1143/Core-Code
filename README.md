@@ -1,7 +1,7 @@
 # Core-Code
 Core Code Bootcamp
 ***
-**Week challenges (Tuesday)**
+**Week challenges (Tuesday 11)**
 1. Watch video about Compilation and Interpretation: Done!
 ***
 2. Java language is compiled or interpreted? A.// Interpreted
@@ -39,7 +39,7 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 ***
 9. Search about High-level languages and Low-level languages. Done!
 ***
-**Week challenges (Wednesday)**
+**Week challenges (Wednesday 12)**
 1.  Learn about binary, decimal and hexadecimal numbers. **Done!**
 ***
 2. Translate the year you where born **(1991)** to binary, decimal and hexadecimal
@@ -127,7 +127,7 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 ![image](https://user-images.githubusercontent.com/96300815/149392348-5b8dca42-5a4f-4ca9-96c9-d91538714f70.png)
 
 ***
-#**Week challenges (Thursday)**
+#**Week challenges (Thursday 13)**
 
 1. Search for real word applications of Javascript **Done!**
 
@@ -141,7 +141,7 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 
 #2nd Week challenges 
 
-**(Monday)**
+**(Monday 17)**
 
 1. Follow the github course
 
@@ -150,3 +150,13 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 3. Read about "Basic math in JavaScript — numbers and operators" **Done!**
 
 4. Create an account in Codewars **Done!** 
+
+***
+**(Tuesday 18)**
+
+1. function multiply(a, b){
+  return a * b
+}
+
+2. 
+***
