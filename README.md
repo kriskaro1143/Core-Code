@@ -1,5 +1,5 @@
 # Core-Code
-Core Code Bootcamp
+[Core Code Bootcamp](rl.md)
 ***
 **Week challenges (Tuesday 11)**
 1. Watch video about Compilation and Interpretation: Done!
