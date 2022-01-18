@@ -137,3 +137,16 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 
 4.Follow the github course. **Done!**
 
+***
+
+#2nd Week challenges 
+
+**(Monday)**
+
+1. Follow the github course
+
+2. Watch this video about **What Are Data Types?  Done!**
+
+3. Read about "Basic math in JavaScript — numbers and operators" **Done!**
+
+4. Create an account in Codewars **Done!**
