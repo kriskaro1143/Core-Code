@@ -149,4 +149,4 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 
 3. Read about "Basic math in JavaScript — numbers and operators" **Done!**
 
-4. Create an account in Codewars **Done!**
+4. Create an account in Codewars **Done!** 
