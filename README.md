@@ -154,9 +154,14 @@ Imprimir “La edad de la persona es: “, edad, “ años”
 ***
 **(Tuesday 18)**
 
-1. function multiply(a, b){
+1. 
+function multiply(a, b){
+
   return a * b
+  
 }
 
-2. 
+2.
+
+
 ***
