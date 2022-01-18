@@ -185,4 +185,25 @@ function getChar(c) {
     return String.fromCharCode(c)
 }
 
+4. Binary Addition
+
+function addBinary(a,b){
+
+  return (a+b).toString(2)
+  
+}
+
+5.  Student's Final Grade
+
+function finalGrade (exam, projects) {
+
+  if(exam > 90 || projects > 10) return 100;
+  
+  if(exam > 75 & projects >= 5) return 90;
+  
+  
+  if(exam > 50 & projects >= 2) return 75;
+  return 0;
+  
+}
 ***
