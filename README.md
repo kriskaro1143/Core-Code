@@ -263,4 +263,74 @@ function fakeBin(x){
 
 ***
 **(Thursday 20)**
+
+1.  Exclamation marks series #2: Remove all exclamation marks from the end of sentence
+
+function remove (string) {  
+
+  return string.replace(/!+$/, '');
+  
+}
+
+
+2.  Vowel remover
+
+function shortcut (string) {
+
+  return string.replace(/[aeiou]/gi, '');
+  
+}
+
+
+3.  Rock Paper Scissors!
+
+const rps = (p1, p2) => {
+
+  if (p1 === p2) return "Draw!";
+  
+  var rules = {rock: "scissors", paper: "rock", scissors: "paper"};
+  
+  if (p2 === rules[p1]) {
+  
+    return "Player 1 won!";
+    
+  }
+  
+  else {
+  
+    return "Player 2 won!";
+    
+  }
+  
+};
+
+
+4.  Persistent Bugger
+
+
+function persistence(num) {
+
+   //code me
+   
+  if (num.toString().length === 1) {
+  
+    return 0;
+    
+  }
+  
+  var mult = 1;
+  
+  var splitStr = num.toString().split("");
+  
+  for (var i = 0; i < splitStr.length; i++) {
+  
+    mult *= parseFloat(splitStr[i]);
+    
+  }
+  
+  return 1 + persistence(parseFloat(mult));
+  
+}
+
+
 ***
