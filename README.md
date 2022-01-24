@@ -208,3 +208,59 @@ function finalGrade (exam, projects) {
   
 }
 ***
+**(Wednesday 19)**
+
+1.  Holiday Viii-Duty Free
+
+function dutyFree(normPrice, discount, hol){
+
+  return(Math.floor(hol / normPrice / discount * 100))
+  
+}
+
+
+2.  Twice as Old
+
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+
+  // your code here
+  
+  return Math.abs(dadYearsOld - (sonYearsOld*2));
+  
+}
+
+
+3.  Valid Spacing
+
+function validSpacing(s) {
+
+  // write your code here
+  
+  if(s.length==0)
+  
+    return true;
+    
+  var arr=s.split(' ');
+  
+  for (var i=0; i<arr.length; i++)
+  
+    if (arr[i].length==0)
+    
+      return false;
+      
+  return true;
+  
+}
+
+
+4.  Fake Binary
+
+function fakeBin(x){
+
+  return x.split('').map(a => a < '5' ? "0" : "1").join("");
+  
+}
+
+***
+**(Thursday 20)**
+***
