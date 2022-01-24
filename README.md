@@ -336,6 +336,6 @@ function persistence(num) {
 
 #5.   1st Core Challenge
 
-#I´m Cristian, a talent adquisition specialist currently learning about programming (JavaScript, React & Node.js). I would like to convert myself in a really good developer and offer practical solutions to the ITS industry. I´m a self-taught-person, compromise and always looking for new challenges that dare my skills! 
+<mark>**I´m Cristian, a talent adquisition specialist currently learning about programming (JavaScript, React & Node.js). I would like to convert myself in a really good developer and offer practical solutions to the ITS industry. I´m a self-taught-person, compromise and always looking for new challenges that dare my skills!**</mark> 
 
 ***
