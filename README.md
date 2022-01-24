@@ -333,4 +333,8 @@ function persistence(num) {
 }
 
 
+
+#5.   1st Core Challenge
+
+
 ***
