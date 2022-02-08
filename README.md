@@ -340,7 +340,7 @@ function persistence(num) {
 
 ***
 
-(Monday 24)
+**(Monday 24)**
 
 1. Who likes it?
 
@@ -377,6 +377,8 @@ var templates = [
 
 
 
+
+
 2.Bit Counting
 
 
@@ -395,6 +397,8 @@ var countBits = function(n) {
    return result;
    
 }
+
+
 
 
 
@@ -419,5 +423,199 @@ decodeMorse = function(morseCode){
     
 }
 
+
+***
+
+
+**(Tuesday 25)**
+
+1. Your order, please
+
+
+function order(words){
+  
+  return words.split(' ').sort(function(a, b){
+  
+      return a.match(/\d/) - b.match(/\d/);
+      
+   }).join(' ');
+   
+}   
+
+
+
+
+
+2. Counting Duplicates
+
+
+function duplicateCount(text){
+
+  return (text.toLowerCase().split('').sort().join('').match(/([^])\1+/g) || []).length;
+  
+}
+
+
+
+
+
+
+3. Simple Pig Latin
+
+
+function pigIt(str){
+
+  //Code here
+  
+  str = str.trim().split(/\s{1,}/);
+  
+    return str.map(val => {
+    
+        if (/^[A-Za-z]+$/.test(val)) {
+	
+            return `${val.slice(1)}${val.slice(0, 1)}ay`;
+	    
+        }
+	
+        return val;
+	
+    }).join(' ');
+    
+}
+
+
+***
+
+**(Wednesday 26)**
+
+
+1. Valid Parentheses
+
+
+function validParentheses(parens){
+
+  var n = 0;
+  
+  for (var i = 0; i < parens.length; i++) {
+  
+    if (parens[i] == '(') n++;
+    
+    if (parens[i] == ')') n--;
+    
+    if (n < 0) return false;
+    
+  }
+  
+  
+  return n == 0;
+  
+}
+
+
+
+
+
+2. Convert string to camel case
+
+
+function toCamelCase(str){
+
+  var regExp=/[-_]\w/ig;
+  
+  return str.replace(regExp,function(match){
+  
+        return match.charAt(1).toUpperCase();
+	
+   });
+   
+}
+
+
+
+
+
+
+3. Unique In Order
+
+
+var uniqueInOrder=function(iterable){
+
+  return [...iterable].filter((a, i) => a !== iterable[i-1])
+  
+}
+
+
+***
+
+**(Thursday 27)**
+
+
+1. Fold an array
+
+
+
+function foldArray(array, runs) {
+
+  if (!runs) return array;
+
+  var result = [];
+  
+  // new Array
+  
+  for (var i = 0; i < Math.ceil(array.length / 2); i++) {
+  
+    result[i] = array.length -i - 1 === i ? array[i] : array[i] + array[array.length - i - 1];
+    
+  }
+  
+  
+  return foldArray(result, runs - 1);
+  
+}
+
+
+
+
+
+2. Encrypt this!
+
+
+var encryptThis = function(text) {
+
+  return text.replace(/(\w)(\w?)((\w*)(\w))?/g, 
+  
+  (word, first, second, tail, middle, last) => [first.charCodeAt(0), last, middle, second].join(''));
+  
+}
+
+
+
+
+
+3. Format a string of names like 'Bart, Lisa & Maggie'.(retired)
+
+
+function list(names){
+
+  if (names.length > 1) {
+  
+    return `${otherNames(names)} & ${names[names.length - 1].name}`
+    
+  } else if (names.length === 1) {
+  
+    return names[0].name
+    
+  }
+  
+   return '';
+   
+ }
+ 
+ 
+ function otherNames(array) {
+ 
+   return array.splice(0, array.length - 1).map(person => person.name).join(', ');
+   
+ }
 
 ***
