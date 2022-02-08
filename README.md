@@ -345,49 +345,79 @@ function persistence(num) {
 1. Who likes it?
 
 function likes(names) {
+
   // TODO
+  
 var templates = [
+
     'no one likes this',
+    
     '{name} likes this',
+    
     '{name} and {name} like this',
+    
     '{name}, {name} and {name} like this',
+    
     '{name}, {name} and {n} others like this'
+    
   ];
+  
   var idx = Math.min(names.length, 4);
   
+  
   return templates[idx].replace(/{name}|{n}/g, function (val) {
+  
     return val === '{name}' ? names.shift() : names.length;
+    
   });
+  
 }
+
+
 
 
 
 2.Bit Counting
 
+
 var countBits = function(n) {
+
    // make an array with the bit result
+   
    const base = (n).toString(2).split('');
    
+   
    // make a sum with the array and make the index a Number
+   
    const result = base.reduce((sum, num) => sum + Number(num), 0);
    
+   
    return result;
+   
 }
+
+
 
 
 
 3. Decode the Morse code
 
 
-
 decodeMorse = function(morseCode){
+
     //your code here
+    
   return morseCode
+  
     .trim()
+    
     .split(/  | /)
+    
     .map( (code) => MORSE_CODE[code] || ' ')
+    
     .join('');
+    
 }
 
 
-
+***
