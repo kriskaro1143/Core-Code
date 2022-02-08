@@ -340,6 +340,8 @@ function persistence(num) {
 
 ***
 
+#3rd Week challenges
+
 **(Monday 24)**
 
 1. Who likes it?
